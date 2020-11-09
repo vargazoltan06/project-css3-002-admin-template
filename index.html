@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header--dark">
+        <h3 class="header__title">
+            Admin Page <i class="fa fa-bars"></i>
+        </h3>
+        <div class="header__search">
+            <form class="header__form">
+                <input class="search__input" id="search__input" type="text" placeholder="Search for...">
+                <button class="search__btn" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </header>
+
+    <main id="main">
+        <aside>
+            <nav class="main__nav">
+                <ul class="nav__ul">
+                    <li>
+                        <h4>CORE</h4>
+                    </li>
+                    <li><a href="">
+                            <i class="fa fa-tachometer"> Dashboard</i>
+                        </a>
+                    </li>
+                    <li>
+                        <h4>INTERFACE</h4>
+                    </li>
+                    <li><a href="">
+                            <i class="fa fa-windows"> Layouts<i class="fa fa-angle-right nav__ul--arrow"></i></i>
+                        </a>
+                    </li>
+                    <li><a href="">
+                            <i class="fa fa-bookmark"> Pages<i class="fa fa-angle-right nav__ul--arrow"></i></i>
+                        </a>
+                    </li>
+                    <li>
+                        <h4>ADDONS</h4>
+                    </li>
+                    <li><a href="">
+                            <i class="fa fa-area-chart"> Charts</i>
+                        </a>
+                    </li>
+                    <li><a href="">
+                            <i class="fa fa-table"> Tables</i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <section class="content">
+            <h1>Dashboard</h1>
+            <div class="main__breadcrumb">Dashboard</div>
+            <div class="main__cards">
+                <div class="main__card main__card--blue">
+                    <div class="card__top">Primary card</div>
+                    <div class="card__bottom">View details
+                        <i class="fa fa-angle-right card__bottom--arrow"></i>
+                    </div>
+                </div>
+                <div class="main__card main__card--yellow">
+                    <div class="card__top">Warning cards</div>
+                    <div class="card__bottom">View details <i class="fa fa-angle-right card__bottom--arrow"></i>
+                    </div>
+                </div>
+                <div class="main__card main__card--green">
+                    <div class="card__top">Success Card</div>
+                    <div class="card__bottom">View details
+                        <i class="fa fa-angle-right card__bottom--arrow"></i>
+                    </div>
+                </div>
+                <div class="main__card main__card--red">
+                    <div class="card__top">Danger card</div>
+                    <div class="card__bottom">View details
+                        <i class="fa fa-angle-right card__bottom--arrow"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
