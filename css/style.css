@@ -128,6 +128,7 @@ body {
 .card__top {
     display: flex;
     align-items: center;
+    border-radius: 0.25rem 0.25rem 0 0;
     padding: 1.5rem;
     height: 2rem;
     font-size: 1.2rem;
@@ -139,6 +140,7 @@ body {
 }
 
 .card__bottom {
+    border-radius: 0 0 0.25rem 0.25rem;
     position: relative;
     height: 0.5rem;
     padding: 1.5rem;
